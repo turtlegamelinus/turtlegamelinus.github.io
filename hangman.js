@@ -65,17 +65,17 @@
 function setup() {
      hanmanpic = loadImage("hangmandeath.png");
      createCanvas(720, 700);
-     background(255, 0, 0);
+
+}
+
+function draw() {
+         background(255, 0, 0);
   noSmooth();
 
   // A rectangle
   rect(67, 134, 10, 100);   
     
   translate(140, 0);
-
-}
-
-function draw() {
     
 image(hanmanpic, 0, 0, width,height);
 
